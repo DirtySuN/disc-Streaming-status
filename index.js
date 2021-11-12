@@ -15,7 +15,8 @@ client.on("ready", async () => {
   client.user.setPresence({
     status: "dnd",// set status online,idle,dnd
     activity: {
-      name: "Fucked By Jay", //Replace with whatever you want here
+      name: " ", //you can either leave blank or place in the same thing that you have below here
+      details:"PLACE TEXT HERE",// this shows with the presence shit, dont know why it doesnt show with the name above 
       url: "https://twitch.tv/directory",//same for here as long as its a youtube/twitch stream
       type: "STREAMING",
     },
